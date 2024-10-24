@@ -64,9 +64,9 @@ const BabbleWave = () => {
       )}
 
       {/* Icon or Button */}
-      <div className="relative z-10 mt-8 bg-white w-16 h-16 rounded-full flex justify-center items-center text-2xl text-orange-400">
+      <Link to={'/'} className="relative z-10 mt-8 bg-white w-16 h-16 rounded-full flex justify-center items-center text-2xl text-orange-400">
       <AiOutlineDelete />
-      </div>
+      </Link>
     </div>
   );
 };
